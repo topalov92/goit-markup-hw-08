@@ -1,0 +1,35 @@
+.address-info {
+  margin-right: 70px;
+  padding-top: 60px;
+}
+
+.footer__logo {
+  display: inline-block;
+  color: $white-color;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+.address {
+  display: inline-block;
+  color: $white-color;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  padding-bottom: 60px;
+
+  &__item {
+    margin: 0;
+  }
+
+  &__media {
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 9px;
+  }
+}

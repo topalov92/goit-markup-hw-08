@@ -1,0 +1,28 @@
+body {
+  background-color: $primary-bg-color;
+  color: $text-color;
+  font-family: Roboto;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.section {
+  padding-top: 94px;
+}
+
+.section-title {
+  color: $title-text-color;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin: 0;
+  margin-bottom: 50px;
+}
