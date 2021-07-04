@@ -4,9 +4,22 @@
   padding: 0px;
   margin-top: 0;
   margin-bottom: 0;
+  width: 100%;
+  margin-bottom: -30px;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
   &__item {
-    width: 270px;
+    // width: 270px;
+    width: 100%;
+    margin-bottom: 30px;
+
+    @media screen and (min-width: 768px) {
+      flex-basis: calc((100% - 60px) / 2);
+    }
   }
 
   &__item:not(:last-child) {
@@ -21,6 +34,7 @@
   }
 
   &__title {
+    text-align: center;
     color: $title-text-color;
     font-weight: bold;
     font-size: 14px;
@@ -29,9 +43,14 @@
     text-transform: uppercase;
     margin-top: 0px;
     margin-bottom: 10px;
+
+    @media screen and (min-width: 768px) {
+      text-align: left;
+    }
   }
 
   &__description {
+    // text-align: center;
     font-weight: normal;
     font-size: 14px;
     line-height: 1.714;
