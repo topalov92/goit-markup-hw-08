@@ -1,4 +1,46 @@
-.page-header__container {
-  // display: flex;
-  align-items: center;
+.page-header {
+  border-bottom: 1px solid #ececec;
+
+  &__container {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 60px;
+
+    @media screen and (min-width: 768px) {
+      min-height: 80px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      justify-content: flex-start;
+    }
+  }
 }
+
+.menu-button {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.menu-svg {
+  fill: currentColor;
+}
+
+// .menu-toggle {
+//   background-color: $white-color;
+//   padding: 0;
+// }

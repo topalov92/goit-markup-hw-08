@@ -7,7 +7,8 @@
   background-color: $backdrop-color;
   opacity: 1;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 40px 39px 40px 41px;
+  padding: 40px;
+  overflow-y: scroll;
 }
 
 .backdrop.is-hidden {
@@ -33,21 +34,29 @@
 }
 
 .form {
-  width: 528px;
-  padding: 40px 39px 40px 41px;
+  width: 450px;
+  padding: 40px;
   margin-left: auto;
   margin-right: auto;
+
+  @media screen and (min-width: 1200px) {
+    width: 528px;
+  }
 
   &__title {
     color: $title-text-color;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
-    line-height: 1.15;
+    line-height: 1.5;
     text-align: center;
     letter-spacing: 0.03em;
     margin: 0;
     margin-bottom: 12px;
+
+    @media screen and (min-width: 1200px) {
+      line-height: 1.15;
+    }
   }
 
   &__field {
@@ -141,13 +150,18 @@
   display: block;
   text-align: center;
   margin-bottom: 30px;
-  font-size: 14px;
-  line-height: 1.714;
+  font-size: 12px;
+  line-height: 1.167;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.714;
+  }
 }
 
 .policy-link .link {
-  font-size: 14px;
-  line-height: 1.714;
+  font-size: 12px;
+  line-height: 1.167;
   letter-spacing: 0.03em;
   text-decoration-line: underline;
   color: $accent-color;

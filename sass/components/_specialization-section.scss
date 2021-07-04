@@ -1,7 +1,14 @@
+.section-specialization {
+  padding-top: 0;
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+}
+
 .specialization {
   display: flex;
   list-style: none;
-  padding-bottom: 94px;
+  // padding-bottom: 94px;
   margin: 0 auto;
   padding-left: 0;
 

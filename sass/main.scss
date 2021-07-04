@@ -1,6 +1,10 @@
-@import "./utils/variables";
+@import "./variables/variables";
+@import "./variables/breakpoints";
 @import "./components/body";
+@import "./components/container";
+@import "./components/section";
 @import "./components/page-header";
+@import "./components/page-header-logo";
 @import "./components/page-header-navigation";
 @import "./components/page-header-media";
 @import "./components/hero-section";
@@ -12,7 +16,8 @@
 @import "./components/footer-address";
 @import "./components/footer-socials";
 @import "./components/footer-submit";
+@import "./components/menu-nav";
 @import "./components/modal-window";
 @import "./components/portfolio";
 @import "./components/portfolio-filter";
-@import "./components/_portfolio-examples";
+@import "./components/portfolio-examples";
