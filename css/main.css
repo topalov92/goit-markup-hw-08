@@ -72,11 +72,11 @@ body {
   }
 }
 
-.page-header {
+.header {
   border-bottom: 1px solid #ececec;
 }
 
-.page-header__container {
+.header__container {
   position: relative;
   display: flex;
   align-items: center;
@@ -85,13 +85,13 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .page-header__container {
+  .header__container {
     min-height: 80px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .page-header__container {
+  .header__container {
     justify-content: flex-start;
   }
 }
@@ -204,7 +204,7 @@ body {
   }
 }
 
-.page-header__media {
+.header__media {
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -215,13 +215,13 @@ body {
 }
 
 @media (max-width: 767px) {
-  .page-header__media {
+  .header__media {
     display: none;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .page-header__media {
+  .header__media {
     position: absolute;
     top: 32px;
     right: 15px;
@@ -229,22 +229,22 @@ body {
   }
 }
 
-.page-header__item:not(:last-child) {
+.header__item:not(:last-child) {
   margin-bottom: 10px;
 }
 
 @media screen and (min-width: 1200px) {
-  .page-header__item:not(:last-child) {
+  .header__item:not(:last-child) {
     margin-bottom: 0;
     margin-right: 30px;
   }
 }
 
-.page-header__link:hover, .page-header__link:focus {
+.header__link:hover, .header__link:focus {
   color: #2196f3;
 }
 
-.page-header__link {
+.header__link {
   display: flex;
   align-items: center;
   color: #757575;
@@ -257,13 +257,13 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
-  .page-header__link {
+  .header__link {
     font-size: 14px;
     line-height: 1.143;
   }
 }
 
-.page-header__icon {
+.header__icon {
   margin-right: 8px;
   fill: currentColor;
 }
@@ -471,17 +471,17 @@ body {
   margin-right: 30px;
 }
 
-.activity-direction {
+.doings-branch {
   position: relative;
 }
 
-.activity-direction__image {
+.doings-branch__image {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-.activity-direction__label {
+.doings-branch__label {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -1288,7 +1288,7 @@ textarea {
   color: white;
 }
 
-.examples {
+.works {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
@@ -1298,7 +1298,7 @@ textarea {
   margin-left: calc(-1 * 30px);
 }
 
-.examples__list {
+.works__list {
   display: flex;
   flex-direction: column;
   background-color: white;
@@ -1310,36 +1310,36 @@ textarea {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.examples__list:hover, .examples__list:focus {
+.works__list:hover, .works__list:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 @media screen and (min-width: 768px) {
-  .examples__list {
+  .works__list {
     flex-basis: calc(100% / 2 - 30px);
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .examples__list {
+  .works__list {
     flex-basis: calc(100% / 3 - 30px);
   }
 }
 
-.examples-link {
+.works-link {
   text-decoration: none;
 }
 
-.examples-link:hover, .examples-link:focus {
+.works-link:hover, .works-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.example-thumb {
+.work-thumb {
   position: relative;
   overflow: hidden;
 }
 
-.example-overlay {
+.work-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -1366,18 +1366,18 @@ textarea {
   color: white;
 }
 
-.examples__list:hover .example-overlay,
-.examples__list:focus .example-overlay {
+.works__list:hover .work-overlay,
+.works__list:focus .work-overlay {
   transform: translateY(0);
 }
 
-.example-thumb__image {
+.work-thumb__image {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-.example {
+.work {
   flex-grow: 1;
   padding: 20px 24px;
   border-bottom: 1px solid #eeeeee;
@@ -1385,7 +1385,7 @@ textarea {
   border-right: 1px solid #eeeeee;
 }
 
-.example__name {
+.work__name {
   color: #212121;
   font-weight: bold;
   font-size: 18px;
@@ -1395,7 +1395,7 @@ textarea {
   margin-bottom: 4px;
 }
 
-.example__filter {
+.work__filter {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;

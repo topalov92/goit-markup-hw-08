@@ -1,4 +1,4 @@
-.examples {
+.works {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
@@ -8,7 +8,7 @@
   margin-left: calc(-1 * 30px);
 }
 
-.examples__list {
+.works__list {
   display: flex;
   flex-direction: column;
   background-color: $white-color;
@@ -34,7 +34,7 @@
   }
 }
 
-.examples-link {
+.works-link {
   text-decoration: none;
   // display: flex;
   // flex-direction: column;
@@ -61,12 +61,12 @@
   //   }
 }
 
-.example-thumb {
+.work-thumb {
   position: relative;
   overflow: hidden;
 }
 
-.example-overlay {
+.work-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -93,18 +93,18 @@
   color: $white-color;
 }
 
-.examples__list:hover .example-overlay,
-.examples__list:focus .example-overlay {
+.works__list:hover .work-overlay,
+.works__list:focus .work-overlay {
   transform: translateY(0);
 }
 
-.example-thumb__image {
+.work-thumb__image {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-.example {
+.work {
   flex-grow: 1;
   padding: 20px 24px;
   border-bottom: 1px solid #eeeeee;
