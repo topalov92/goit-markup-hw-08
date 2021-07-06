@@ -12,40 +12,46 @@
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
-    <header class="page-header">
-        <div class="container page-header__container">
-            <a href="./index.html" class="logo"> <span class="logo__primary">Web</span>Studio</a>
-            <nav class="page-header__navbar">
-                <ul class="nav">
-                    <li class="nav__item"><a href="./index.html" class="nav__link">Студия</a></li>
-                    <li class="nav__item"><a href="./portfolio.html" class="nav__link nav__link--current">Портфолио</a></li>
-                    <li class="nav__item"><a href="" class="nav__link">Контакты</a></li>
-                </ul>
-            </nav>
-            <div>
-                <ul class="page-header__media">
-                    <li class="page-header__item"><a href="mailto:info@devstudio.com" class="page-header__link"><svg
-                                class="page-header__icon" width="14px" height="10px">
-                                <use href="./images/svg/symbol-defs.svg#envelope"></use>
-                            </svg>info@devstudio.com</a></li>
-                    <li class="page-header__item"><a href="tel:+380961111111" class="page-header__link"><svg
-                                class="page-header__icon" width="10px" height="14px">
-                                <use href="./images/svg/symbol-defs.svg#smartphone"></use>
-                            </svg>+38 096 111 11 11</a></li>
-                </ul>
-    
-            </div>
-            <button class="menu-toggle js-open-menu menu-button" aria-expanded="false" aria-controls="mobile-menu">
-                <svg class="menu-svg" width="24" height="16" aria-label="Переключатель мобильного меню">
-                    <use href="./images/svg/symbol-defs.svg#menu_24px"></use>
-                </svg>
-            </button>
-    
+
+<!-- header -->
+
+<header class="page-header">
+    <div class="container page-header__container">
+        <a href="./index.html" class="logo"> <span class="logo__primary">Web</span>Studio</a>
+        <nav class="page-header__navbar">
+            <ul class="nav">
+                <li class="nav__item"><a href="./index.html" class="nav__link nav__link--current">Студия</a></li>
+                <li class="nav__item"><a href="./portfolio.html" class="nav__link">Портфолио</a></li>
+                <li class="nav__item"><a href="" class="nav__link">Контакты</a></li>
+            </ul>
+        </nav>
+        <div>
+            <ul class="page-header__media">
+                <li class="page-header__item"><a href="mailto:info@devstudio.com" class="page-header__link"><svg
+                            class="page-header__icon" width="14px" height="10px">
+                            <use href="./images/svg/icons.svg#envelope"></use>
+                        </svg>info@devstudio.com</a></li>
+                <li class="page-header__item"><a href="tel:+380961111111" class="page-header__link"><svg
+                            class="page-header__icon" width="10px" height="14px">
+                            <use href="./images/svg/icons.svg#smartphone"></use>
+                        </svg>+38 096 111 11 11</a></li>
+            </ul>
+
         </div>
-    
-    </header>
+        <button class="menu-toggle js-open-menu menu-button" aria-expanded="false" aria-controls="mobile-menu">
+            <svg class="menu-svg" width="24" height="16" aria-label="Переключатель мобильного меню">
+                <use href="./images/svg/icons.svg#menu_24px"></use>
+            </svg>
+        </button>
+
+    </div>
+
+</header>
 
     <main>
+
+<!-- nav portfolio -->
+
         <section class="portfolio"> 
             <div class="container">
                 <h1 class="visually-hidden">Portfolio</h1>
@@ -56,6 +62,9 @@
                     <li class="filter__item"><button type="button" class="filter__button">Дизайн</button></li>
                     <li class="filter__item"><button type="button" class="filter__button">Маркетинг</button></li>
                 </ul>
+
+<!-- examples work -->
+
                 <ul class="examples">
                     <li class="examples__list">
                         <a class="examples-link" href="">
@@ -266,13 +275,13 @@
                         <li class="member-socials__item">
                             <button type="button" class="member-social__button"><svg class="member-social__button--fill"
                                     width="20px" height="20px">
-                                    <use href="./images/svg/symbol-defs.svg#instagram"></use>
+                                    <use href="./images/svg/icons.svg#instagram"></use>
                                 </svg></button>
                         </li>
                         <li class="member-socials__item">
                             <button type="button" class="member-social__button"><svg class="member-social__button--fill"
                                     width="20px" height="20px">
-                                    <use href="./images/svg/symbol-defs.svg#twitter"></use>
+                                    <use href="./images/svg/icons.svg#twitter"></use>
                                 </svg></button>
                         </li>
     
@@ -280,13 +289,13 @@
                         <li class="member-socials__item">
                             <button type="button" class="member-social__button"><svg class="member-social__button--fill"
                                     width="20px" height="20px">
-                                    <use href="./images/svg/symbol-defs.svg#facebook"></use>
+                                    <use href="./images/svg/icons.svg#facebook"></use>
                                 </svg></button>
                         </li>
                         <li class="member-socials__item">
                             <button type="button" class="member-social__button"><svg class="member-social__button--fill"
                                     width="20px" height="20px">
-                                    <use href="./images/svg/symbol-defs.svg#linkedin"></use>
+                                    <use href="./images/svg/icons.svg#linkedin"></use>
                                 </svg></button>
                         </li>
                     </ul>
@@ -302,7 +311,7 @@
     
                     <button type="submit" class="form-submit__button">Подписаться<svg class="form-submit__icon" width="24px"
                             height="24px">
-                            <use href="./images/svg/symbol-defs.svg#icon-send"></use>
+                            <use href="./images/svg/icons.svg#icon-send"></use>
                         </svg></button>
     
                 </form>
@@ -313,7 +322,7 @@
     <div class="menu-container js-menu-container" id="mobile-menu">
         <button class="menu-toggle js-close-menu close-button">
             <svg class="menu-svg" width="40" height="40" aria-label="Переключатель мобильного меню">
-                <use href="./images/svg/symbol-defs.svg#close_40px-1"></use>
+                <use href="./images/svg/icons.svg#close_40px-1"></use>
             </svg>
         </button>
         <ul class="menu-nav">
