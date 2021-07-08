@@ -792,10 +792,18 @@ body {
   margin-bottom: 20px;
 }
 
+@media screen and (min-width: 768px) {
+  .form-submit__input {
+    width: 450px;
+    margin-bottom: 20px;
+    margin-right: 12px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .form-submit__input {
     width: 358px;
-    margin-bottom: 0;
+    margin-bottom: 0px;
     margin-right: 12px;
   }
 }
@@ -1223,7 +1231,7 @@ textarea {
   margin-bottom: 40px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 480px) {
   .filter {
     margin-bottom: 30px;
   }
@@ -1231,7 +1239,7 @@ textarea {
 
 @media screen and (min-width: 768px) {
   .filter {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 }
 
